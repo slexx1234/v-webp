@@ -22,6 +22,8 @@ class WebP {
                 } catch(e) {
                     console.error(e);
                 }
+
+                document.querySelector('html').classList.add('webp');
             }
         });
     }
