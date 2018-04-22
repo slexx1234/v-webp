@@ -1,0 +1,25 @@
+{
+  "name": "v-webp",
+  "version": "1.0.0",
+  "description": "Check webp support",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/slexx1234/vue-webp.git"
+  },
+  "keywords": [
+    "vue",
+    "webp",
+    "vue2",
+    "vue-plugin"
+  ],
+  "author": "slexx1234@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/slexx1234/v-webp/issues"
+  },
+  "homepage": "https://github.com/slexx1234/v-webp#readme"
+}
