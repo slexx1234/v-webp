@@ -25,3 +25,15 @@ Or
 <img v-if="$webp" src="/image.webp"/>
 <img v-else src="/image.png"/>
 ```
+
+Or
+
+```css
+html.webp {
+    /* ... */
+}
+
+html:not(.webp) {
+    /* ... */
+}
+```
