@@ -16,7 +16,7 @@ Vue.use(VueWebP);
 ## Usage
 
 ```html
-<img v-webp src="/image.png"/>
+<img v-webp="'/image.png'"/>
 ```
 
 Or
