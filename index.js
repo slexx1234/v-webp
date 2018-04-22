@@ -24,7 +24,7 @@ class WebP {
                 }
             }
         });
-    },
+    }
 }
 
 export default new WebP();
