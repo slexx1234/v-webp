@@ -27,4 +27,4 @@ class WebP {
     }
 }
 
-module.exports.default = new WebP();
+module.exports = new WebP();

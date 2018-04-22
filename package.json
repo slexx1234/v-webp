@@ -1,6 +1,6 @@
 {
   "name": "v-webp",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Check webp support",
   "main": "index.js",
   "scripts": {
