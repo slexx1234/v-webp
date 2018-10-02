@@ -1,6 +1,6 @@
 {
   "name": "v-webp",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Check webp support",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/slexx1234/vue-webp.git"
+    "url": "git+https://github.com/slexx1234/v-webp.git"
   },
   "keywords": [
     "vue",
@@ -18,8 +18,14 @@
   ],
   "author": "slexx1234@gmail.com",
   "license": "MIT",
+  "contributors": [
+    { "name": "Camilo Carromeu", "email": "camilo.carromeu@embrapa.br" }
+  ],
   "bugs": {
     "url": "https://github.com/slexx1234/v-webp/issues"
   },
-  "homepage": "https://github.com/slexx1234/v-webp#readme"
+  "homepage": "https://github.com/slexx1234/v-webp#readme",
+  "dependencies": {
+    "eslint": "^5.6.1"
+  }
 }
