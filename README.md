@@ -26,6 +26,8 @@ var VueWebP = require('./node_modules/v-webp/es5.js');
 Vue.use(VueWebP);
 ```
 
+Use [browserify](http://browserify.org/)!
+
 ## Usage
 
 ```html
