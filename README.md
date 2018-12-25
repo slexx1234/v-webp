@@ -1,6 +1,6 @@
 # v-webp
 
-## Install 
+## Install ES6
 
 ```bash
 npm i v-webp --save
@@ -9,6 +9,19 @@ npm i v-webp --save
 ```js
 import Vue from 'vue';
 import VueWebP from 'v-webp';
+
+Vue.use(VueWebP);
+```
+
+## Install ES5
+
+```bash
+npm i v-webp --save
+```
+
+```js
+var Vue = require('vue');
+var VueWebP = require('./node_modules/v-webp/es5.js');
 
 Vue.use(VueWebP);
 ```

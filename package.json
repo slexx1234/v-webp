@@ -1,14 +1,15 @@
 {
   "name": "v-webp",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Check webp support",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel index.js | uglifyjs --compress --mangle > es5.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/slexx1234/vue-webp.git"
+    "url": "git+https://github.com/slexx1234/v-webp.git"
   },
   "keywords": [
     "vue",
@@ -21,5 +22,14 @@
   "bugs": {
     "url": "https://github.com/slexx1234/v-webp/issues"
   },
-  "homepage": "https://github.com/slexx1234/v-webp#readme"
+  "homepage": "https://github.com/slexx1234/v-webp#readme",
+  "dependencies": {
+    "eslint": "^5.6.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "uglify-js": "^3.4.9"
+  }
 }
