@@ -28,6 +28,19 @@ Vue.use(VueWebP);
 
 Use [browserify](http://browserify.org/)!
 
+## Install Nuxt.js
+
+It's important if using with Nuxt as a plugin that you use the client flag.
+
+```bash
+// nuxt.config.js
+
+plugins: [
+    { src: '@/plugins/v-webp.js', mode: 'client' }
+]
+
+```
+
 ## Usage
 
 ```html
